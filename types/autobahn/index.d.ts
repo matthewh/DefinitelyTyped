@@ -224,6 +224,7 @@ declare namespace autobahn {
         realm?: string;
         authmethods?: string[];
         authid?: string;
+        authextra?: any;
     }
 
     interface ICloseEventDetails {
